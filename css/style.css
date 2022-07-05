@@ -1,0 +1,73 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.btn-icon {
+   background-color: inherit;
+}
+.active-btn {
+   background-color: rgba(255, 255, 255, 0.441);
+}
+.active-color {
+   border: 3px solid rgba(255, 255, 255, 0.701);
+}
+#drowArea {
+   margin: 20px;
+   width: 700px;
+   border: 1px solid rgb(74, 74, 74)black;
+}
+#canvas {
+   border: 1px solid rgb(74, 74, 74);
+}
+#pallete {
+   border: 1px solid rgb(74, 74, 74);
+   height: 40px;
+   background-color: rgb(74, 74, 74);
+   width: 700px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+#coursorLocation {
+   margin-top: -5px;
+   width: 700px;
+   height: 30px;
+   border: 1px solid rgb(74, 74, 74);
+   background-color: rgb(74, 74, 74);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#coursor {
+   color: aliceblue;
+}
+.btn {
+   font-weight: bold;
+   width: 30px;
+   height: 30px;
+   background-color: rgba(240, 248, 255, 0.269);
+   color: aliceblue;
+   border: none;
+   border-radius: 5px;
+}
+#outputSize {
+   color: aliceblue;
+   padding: 5px;
+}
+#colors {
+   display: flex;
+   /* justify-self: end; */
+   flex-basis: 35%;
+}
+.color {
+   width: 20px;
+   height: 20px;
+   margin: 2px;
+   border-radius: 50%;
+   align-self: center;
+}
+#instruments {
+   /* align-self: flex-start; */
+   justify-self: flex-start;
+   flex-basis: 35%;
+}
